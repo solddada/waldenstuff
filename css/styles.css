@@ -1,0 +1,383 @@
+/* 
+#025E73   Petroleo
+#011F26   Negro
+#F26716   Naranja
+#F2A71B   Naranja hover
+#565759   Gris
+#BFB78F   BeigeO
+#BFB78F   Beige
+*/
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Josefin+Sans:wght@100..700&display=swap');
+* {
+    margin: 0 auto; 
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+html {
+    font-size: 62,5%;
+    /* 1rem=10px */
+}
+
+/* body {
+    overflow: hidden;
+} */
+
+/* herader */
+header {
+    display: flex;
+    background-color: #565759;
+    width: 100%;
+    min-height: 6rem;
+}
+header nav {
+    display: flex;
+    align-content: flex-end;
+    width: 100%;
+}
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: right;
+
+}
+
+.logo-waldenstuff {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: left;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 0,5rem;
+}
+ul li {
+    list-style-type: none;
+    font-style: normal;
+    text-align: center;
+    font-family: "Gamja Flower", sans-serif;
+    color: #011F26 ;
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin-top: 1.5rem;
+}
+
+ul li a { 
+    color: #011F26 ;
+    text-decoration: none;
+}
+.footernav a {
+    color: #011F26 ;
+    text-decoration: none;
+    display: flex;
+}
+
+div h1 {
+    font-family: "Gamja Flower", sans-serif;
+    color: #025E73;
+    font-weight: 200px;
+    font-size: 1,5rem;
+    text-align: left;
+    padding-left: 2rem;
+
+}
+
+div h2 {
+    font-family: "Josefin Sans", sans-serif;
+    color: #025E73;
+    font-weight: 400;
+    text-align: center;
+    }
+
+.boton,
+.boton a {
+    font-family: "Josefin Sans", sans-serif;
+    width: 10rem; 
+    height: 2.3rem;
+    font-size: 1.4rem; 
+    font-weight: 0.4rem;
+    text-decoration: none;
+    background-color: #F26716; 
+    color: #011F26; 
+    border-radius: 20px; 
+    cursor: pointer; 
+    font-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boton a{
+    text-decoration: none;
+    font-style: normal;
+
+} 
+.boton:hover {
+    background-color: #F2A71B;
+}
+
+header nav ul li a:hover, footer nav a:hover {
+    color: #025E73;
+}
+
+/* index */
+.index {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-start;
+}
+.foto-index .img-index{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+div .marca{
+    color: #011F26;
+    letter-spacing: 1.5rem;
+    line-height: 4rem;
+    padding: 2rem;
+}
+.text-index .waldenstuff-index {
+    display: flex;
+    flex-direction: column;
+    justify-content: safe;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+}
+.text-index h1{
+    font-family: "Gamja Flower", sans-serif;
+    font-weight: 100px;
+    font-size: 5rem;
+    text-align: center;
+}
+.text-index h2{
+    font-family: "Gamja Flower", sans-serif;
+    font-weight: 100px;
+    font-size: 3rem; 
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+    text-align: center; 
+}
+.text-index h3{
+    font-family: "Josefin Sans", sans-serif;
+    color: #011F26;
+    font-weight: normal;
+    font-size: 1.5rem;  
+    text-transform: uppercase;
+    text-align: center;
+}
+.text-index p{
+    font-family: "Josefin Sans", sans-serif;
+    color: #011F26;
+   font-weight: lighter;
+    font-size: 1.5rem;  
+    text-align: center;
+    line-height: normal;
+}
+.saber p{
+    font-family: "Gamja Flower", sans-serif;
+    color: #011F26;
+    font-weight: 100px;
+    font-size: 2rem;  
+    text-align: center;
+    
+}
+
+.index .img-index{
+    width: 100%;
+}
+
+/* Taller */
+
+.contenedor-tarjetas {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 1.5rem;
+    }
+.tarjeta{
+    background-color: beige;
+    border-radius: 3%;
+    margin: 1rem;
+    border-color: #BFB78F;
+}
+.imgtaller {
+    border-radius: 5%;
+    padding: 0.5rem;
+}
+
+
+
+
+/* Nosotros */
+ .nosotros {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    width: 100%; 
+    
+    padding: 3rem;
+    margin: 2rem;   
+} 
+div .texto_nosotros{
+    box-sizing: border-box;
+    width: 80%;
+    font-family: "Gamja Flower", sans-serif;
+    align-self: flex-start;
+    margin: 3rem;
+    padding-right: 1rem;
+  }
+.form h2 {
+    color: #025E73;
+    font-weight: 100;
+    font-size: 1,5rem;
+    text-align: right;
+    padding-right: 1rem;
+    margin-right: 1rem;
+
+} 
+div p {
+    font-family: "Gamja Flower", sans-serif;
+    font-size: 2rem;
+    font-weight: lighter;
+    font-style: none; 
+    line-height: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    } 
+
+.naranja{
+        color: #F26716;
+        }
+.petroleo{
+        color: #025E73;
+        }    
+div .form{
+    display: flex;
+    flex-direction: column;
+    justify-content: safe;
+    align-items: center;
+    width: 70%;
+    padding-right: 3rem;
+    margin: 3rem;
+ } 
+  .form {
+    width: calc(50% - 10px); 
+    padding-left: 10px;   
+    box-sizing: border-box;
+ } 
+
+div .formulario_input,
+label {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    font-style: none; 
+    line-height: 2rem;
+    text-align: justify; 
+    
+}
+.img-contacto div{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: right;
+    align-items: right; 
+    width: 50%;
+    padding-left: 1rem;
+    margin-left: 1rem; 
+}
+
+.texto_nosotros {
+    width: 70%;
+    padding-right: 20px;
+    box-sizing: border-box; 
+    align-self: stretch; 
+    padding-bottom: 1rem;
+    
+}
+.form {
+    width: 50%;
+    box-sizing: border-box; 
+}
+
+.form .img-osito img {
+    width: 100%;
+    height: auto;
+}
+/* contenido */
+.btn-wpp{
+    border-radius: 70%;
+    width: 3rem;
+    height: 3rem;
+    background-color: green;
+    padding: 1rem;
+    position: fixed;
+    bottom: 2rem;
+    right: 3rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding-block: 1rem;
+    background-color: #565759;
+    width: 100%;
+    min-height: 4rem;
+}
+/* Grid */
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 0.5rem;
+    grid-row-gap: 0.5rem;
+    justify-items: center;
+    align-items: center;
+    object-fit: cover;
+    border-radius: 4%;
+}
+
+input {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+textarea {
+    height: 5rem;
+}
+/* mobile */
+/* @media screen and (min-width: 320px) and (max-width: 767px) {
+
+    .galeria {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-column-gap: 0.2rem;
+        grid-row-gap: 0.2rem;
+        justify-items: center;
+        align-items: center;
+    
+}
+/* tablet */
+/* @media screen and (min-width: 768px) and (max-width: 123px) {
+    
+}
+/* desktop */
+/* @media screen and (min-width: 1024px) {
+    
+    
+}  */ 
+
+
+
+
+
